@@ -1,0 +1,65 @@
+:root {
+  font-family: 'Comic Sans MS', cursive;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+label {
+  display: block;
+}
+
+.form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+nav {
+  margin-right: 50px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+}
+
+.close-session {
+  margin-left: auto;
+}
+
+a {
+  color: rgb(97, 28, 161);
+  text-decoration: none;
+}
+
+.dashboard {
+  width: 500px;
+  margin: auto;
+}
+
+.errorMessage {
+  background-color: #f2dede;
+  color: #a94442;
+  padding: 10px;
+  animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
