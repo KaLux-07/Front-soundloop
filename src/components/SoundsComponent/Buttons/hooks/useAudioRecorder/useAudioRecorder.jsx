@@ -71,7 +71,7 @@ const useAudioRecorder = (soundUrl, setAudioBlobs, soundId) => {
     const togglePlayback = () => {
         if (audio) {
             if (audio.playing()) {
-                audio.pause();
+                audio.stop();
                 setIsPlaying(false);
             } else {
                 audio.play();
